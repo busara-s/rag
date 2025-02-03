@@ -23,7 +23,7 @@ ollama --version
 
 ### 3. Pull a Model
 ```
-ollama pull llama3.2-vision
+ollama pull llama3.2:1b
 ```
 
 ### 4. Install Required Packages
