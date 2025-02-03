@@ -10,26 +10,32 @@ This project allows you to upload a PDF file and interact with it using an AI-po
 * Local execution: Runs entirely on your machine without cloud dependencies.
 
 ## 🛠 Installation
+To get started, install Ollama by following these steps:
 
-### 1. Install Required Packages
-```
-pip install streamlit pymupdf langchain
-```
-
-### 2. Install Ollama
+### 1. Install Ollama
 Download and install [Ollama](https://ollama.com/) from the official website:
 
-### 3. Verify Installation
+### 2. Verify Installation
 Ensure Ollama is correctly installed by running:
 ```
 ollama --version
+```
+
+### 3. Pull a Model
+```
+ollama pull llama3.2-vision
+```
+
+### 4. Install Required Packages
+```
+pip install ollama streamlit pymupdf langchain
 ```
 
 ## 💬 How to Use
 
 ### 1. Run the Application
 ```
-streamlit run app.py
+streamlit run chatwithpdf.py
 ```
 
 ### 2. Upload a PDF
