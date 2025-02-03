@@ -25,21 +25,21 @@ Ensure Ollama is correctly installed by running:
 ollama --version
 ```
 
-### 💬 How to Use
+## 💬 How to Use
 
-1. Run the Application
+### 1. Run the Application
 ```
 streamlit run app.py
 ```
 
-2. Upload a PDF
+### 2. Upload a PDF
 * Click on the Choose a PDF file button.
 * Select a PDF from your computer.
 
-3. Ask Questions
+### 3. Ask Questions
 * Enter a query related to the uploaded PDF.
 * Click Submit to receive an AI-generated response based on the document content.
 
-📜 License
+## 📜 License
 
 This project is licensed under the MIT License.
