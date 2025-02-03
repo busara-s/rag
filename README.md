@@ -41,4 +41,5 @@ streamlit run app.py
 * Click Submit to receive an AI-generated response based on the document content.
 
 📜 License
+
 This project is licensed under the MIT License.
